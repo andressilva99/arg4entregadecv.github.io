@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://127.0.0.1:5500/Cv.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" href="http://127.0.0.1:5500/Imagenes/icono%20().ico">
+    <link rel="stylesheet" type="text/css" href="./Curriculum Vitae_files/Estilos.css">
+</head>
+
+<body>
+
+    
+        <h1>CURRICULUM VITAE</h1>
+    
+    <nav>
+        <div>
+            <button class="nav-button">Menú</button>
+            <a href="http://127.0.0.1:5500/Cv.html#" class="lista" id="datos">Inicio</a>
+            <a href="http://127.0.0.1:5500/Cv.html#" class="lista" id="contacto">Contacto</a>
+            <a href="http://127.0.0.1:5500/Cv.html#" class="lista" id="experiencia">Experiencia</a>
+            <a href="http://127.0.0.1:5500/Cv.html#" class="lista" id="educacion">Educación</a>
+            <a href="http://127.0.0.1:5500/Cv.html#" class="lista" id="conocimiento">Conocimiento y Aptitudes</a>
+        </div>
+    </nav>
+    <section id="contiene-foto">
+        <img class="perfil" src="./Curriculum Vitae_files/andres.jpg" alt="Error: La foto de Pablo Andrés Silva Romero. No se pudo cargar!">
+        <h2>PABLO ANDRÉS SILVA ROMERO</h2>
+    </section>
+    <article>
+        <div id="bdatos">
+            <h3>Fecha de nacimiento:</h3>
+            <p>07/04/1999</p>
+            <h3>Nacionalidad:</h3>
+            <p>Colombiana</p>
+            <h3>Domicilio:</h3>
+            <p>Rivadavia 970, Devoto, Córdoba</p>
+        </div>
+        <div id="bcontacto">
+            <h3>Linkedln:</h3>
+            <p>www.linkedin.com/in/pablo-andrés-silva-romero-385073197</p>
+            <h3>Número telefónico:</h3>
+            <p>3564-607128</p>
+            <h3>Instagram:</h3>
+            <p>andres.silva</p>
+        </div>
+        <div id="bexperiencia">
+            <h3>LP PIETROBONI: mayo 2018 - octubre 2021</h3>
+            <p>
+                Cargo de laboratorista vial y oficial administrativo. Realizaba los ensayos del laboratorio y las documentaciones relacionadas con el control de calidad, utilizando un programa de la empresa, Microsoft (Excel - Word - PowerPoint) y AutoCAD.
+            </p>
+            <h3>CRZ: enero 2018 - mayo 2018.</h3>
+            <p>
+                Cargo de operario de maquinaria vial. Ejecutaba distintos trabajos operando maquinaria pesada como motoniveladora, topadora y retroexcavadora.
+            </p>
+            <h3>INNOVAT: enero 2017 - diciembre 2017</h3>
+            <p>
+                Cargo de vendedor de muebles para el hogar. Realizaba las ventas y sus correspondientes facturaciones mediante un programa de la empresa y Microsoft Excel.
+            </p>
+        </div>
+        <div id="beducacion">
+            <h3>Tecnicatura en Programación:</h3>
+            <p>UTN San Francisco. Cursando en el periodo 2022 - 2023.</p>
+            <h3>Secundario:</h3>
+            <p>
+                Bachiller en Economía y Administración. Instituto José María Paz. 2012 - 2017.
+            </p>
+        </div>
+        <div id="bconocimiento">
+            <h3>Habilidades:</h3>
+            <p>Manejo de leguajes C#, JavaScript.</p>
+            <p>Diseño web con HTML, CSS.</p>
+            <p>Administración.</p>
+            <p>Manejo de paquete Office Microsoft Excel, Word y PowerPoint.</p>
+            <p>Manejo de AutoCAD.</p>
+            <h3>Aptitudes:</h3>
+            <p>
+                Adaptabilidad, trabajo en equipo, disciplina, entusiasta, comunicación, pensamiento critico, responsabilidad, resolución de problemas.
+            </p>
+        </div>
+    </article>
+
+    <script src="./Curriculum Vitae_files/function.js.descarga"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
