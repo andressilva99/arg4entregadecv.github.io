@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #1F9EB2;
+    color: #00282E;
+    padding: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #040405;
+    font-size: 33px;
+}
+
+h3 {
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 22px;
+}
+
+#contiene-foto {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.perfil {
+    border-radius: 100%;
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav div {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: none;
+    border-radius: 3%;
+}
+
+.lista:hover {
+    background: #6F6F89;
+}
+
+.nav-button {
+    background: salmon;
+    color: #fff;
+    padding: 10px 0px;
+    display: none;
+}
+
+#bdatos {
+    display: block;
+}
+
+#bcontacto {
+    display: none;
+}
+
+#bexperiencia {
+    display: none;
+}
+
+#beducacion {
+    display: none;
+}
+
+#bconocimiento {
+    display: none;
+}
